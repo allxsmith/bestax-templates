@@ -30,6 +30,14 @@ A one-page CV with a full-height portrait, social profile buttons and a light an
 - Ported from [aldi/bulma-cv-template](https://github.com/aldi/bulma-cv-template) by [aldi](https://github.com/aldi), at commit `29108eb`
 - License: MIT, the upstream's, in [LICENSE](cv/LICENSE)
 
+### Event Participation
+
+An invitation where guests pick the talks they will attend from a program on a frosted gold panel, with a light and dark toggle.
+
+- [Open in StackBlitz](https://stackblitz.com/github/allxsmith/bestax-templates/tree/main/event-participation?file=src/App.tsx)
+- Ported from [aldi/bulma-event-participation-template](https://github.com/aldi/bulma-event-participation-template) by [aldi](https://github.com/aldi), at commit `8369345`
+- License: MIT, the upstream's, in [LICENSE](event-participation/LICENSE)
+
 ## Run one
 
 Each folder is its own project:

@@ -14,6 +14,14 @@ A sign-in page on a frosted glass card, with social login buttons and a language
 - Ported from [aldi/bulma-login-template](https://github.com/aldi/bulma-login-template) by [aldi](https://github.com/aldi), at commit `4f6c099`
 - License: MIT, the upstream's, in [LICENSE](login/LICENSE)
 
+### Coming Soon
+
+A full-screen launch page over a misty highway, with round social buttons and an email signup.
+
+- [Open in StackBlitz](https://stackblitz.com/github/allxsmith/bestax-templates/tree/main/coming-soon?file=src/App.tsx)
+- Ported from [aldi/bulma-coming-soon-template](https://github.com/aldi/bulma-coming-soon-template) by [aldi](https://github.com/aldi), at commit `7a9d786`
+- License: MIT, the upstream's, in [LICENSE](coming-soon/LICENSE)
+
 ## Run one
 
 Each folder is its own project:

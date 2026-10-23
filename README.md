@@ -38,6 +38,14 @@ An invitation where guests pick the talks they will attend from a program on a f
 - Ported from [aldi/bulma-event-participation-template](https://github.com/aldi/bulma-event-participation-template) by [aldi](https://github.com/aldi), at commit `8369345`
 - License: MIT, the upstream's, in [LICENSE](event-participation/LICENSE)
 
+### Rent
+
+A rental listings landing page with a search box, listing cards, and rentals by state and neighborhood.
+
+- [Open in StackBlitz](https://stackblitz.com/github/allxsmith/bestax-templates/tree/main/rent?file=src/App.tsx)
+- Ported from [aldi/bulma-rent-template](https://github.com/aldi/bulma-rent-template) by [aldi](https://github.com/aldi), at commit `3d6bff0`
+- License: MIT, the upstream's, in [LICENSE](rent/LICENSE)
+
 ## Run one
 
 Each folder is its own project:

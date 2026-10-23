@@ -22,6 +22,14 @@ A full-screen launch page over a misty highway, with round social buttons and an
 - Ported from [aldi/bulma-coming-soon-template](https://github.com/aldi/bulma-coming-soon-template) by [aldi](https://github.com/aldi), at commit `7a9d786`
 - License: MIT, the upstream's, in [LICENSE](coming-soon/LICENSE)
 
+### CV
+
+A one-page CV with a full-height portrait, social profile buttons and a light and dark toggle.
+
+- [Open in StackBlitz](https://stackblitz.com/github/allxsmith/bestax-templates/tree/main/cv?file=src/App.tsx)
+- Ported from [aldi/bulma-cv-template](https://github.com/aldi/bulma-cv-template) by [aldi](https://github.com/aldi), at commit `29108eb`
+- License: MIT, the upstream's, in [LICENSE](cv/LICENSE)
+
 ## Run one
 
 Each folder is its own project:

@@ -38,6 +38,14 @@ An invitation where guests pick the talks they will attend from a program on a f
 - Ported from [aldi/bulma-event-participation-template](https://github.com/aldi/bulma-event-participation-template) by [aldi](https://github.com/aldi), at commit `8369345`
 - License: MIT, the upstream's, in [LICENSE](event-participation/LICENSE)
 
+### Hotel
+
+A one-page hotel site with rooms and a details modal, a photo gallery carousel, and a contact form beside a map.
+
+- [Open in StackBlitz](https://stackblitz.com/github/allxsmith/bestax-templates/tree/main/hotel?file=src/App.tsx)
+- Ported from [aldi/bulma-hotel-template](https://github.com/aldi/bulma-hotel-template) by [aldi](https://github.com/aldi), at commit `2f7a1cf`
+- License: MIT, the upstream's, in [LICENSE](hotel/LICENSE)
+
 ### Rent
 
 A rental listings landing page with a search box, listing cards, and rentals by state and neighborhood.

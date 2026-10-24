@@ -46,6 +46,14 @@ A rental listings landing page with a search box, listing cards, and rentals by 
 - Ported from [aldi/bulma-rent-template](https://github.com/aldi/bulma-rent-template) by [aldi](https://github.com/aldi), at commit `3d6bff0`
 - License: MIT, the upstream's, in [LICENSE](rent/LICENSE)
 
+### Wedding Planner
+
+A wedding planner's one-page site with illustrated steps, client quotes, a gallery carousel of wedding photos and a contact form.
+
+- [Open in StackBlitz](https://stackblitz.com/github/allxsmith/bestax-templates/tree/main/wedding-planner?file=src/App.tsx)
+- Ported from [restylianos/bulma-wedding-planner-template](https://github.com/restylianos/bulma-wedding-planner-template) by [restylianos](https://github.com/restylianos), at commit `1b6a8b9`
+- License: MIT, the upstream's, in [LICENSE](wedding-planner/LICENSE)
+
 ## Run one
 
 Each folder is its own project:

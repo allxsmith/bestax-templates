@@ -46,6 +46,14 @@ A rental listings landing page with a search box, listing cards, and rentals by 
 - Ported from [aldi/bulma-rent-template](https://github.com/aldi/bulma-rent-template) by [aldi](https://github.com/aldi), at commit `3d6bff0`
 - License: MIT, the upstream's, in [LICENSE](rent/LICENSE)
 
+### Tropico
+
+A fruit shop with home, fruits, services and contact pages, a welcome carousel and testimonials.
+
+- [Open in StackBlitz](https://stackblitz.com/github/allxsmith/bestax-templates/tree/main/tropico?file=src/App.tsx)
+- Ported from [restylianos/bulma-tropico-template](https://github.com/restylianos/bulma-tropico-template) by [restylianos](https://github.com/restylianos), at commit `0f019f6`
+- License: MIT, the upstream's, in [LICENSE](tropico/LICENSE)
+
 ### Wedding Planner
 
 A wedding planner's one-page site with illustrated steps, client quotes, a gallery carousel of wedding photos and a contact form.

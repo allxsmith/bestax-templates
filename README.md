@@ -16,7 +16,7 @@ A sign-in page on a frosted glass card, with social login buttons and a language
 
 ### Coming Soon
 
-A full-screen launch page over a misty highway, with round social buttons and an email signup.
+A full-screen launch page over a building going up at dawn, with round social buttons and an email signup.
 
 - [Open in StackBlitz](https://stackblitz.com/github/allxsmith/bestax-templates/tree/main/coming-soon?file=src/App.tsx)
 - Ported from [aldi/bulma-coming-soon-template](https://github.com/aldi/bulma-coming-soon-template) by [aldi](https://github.com/aldi), at commit `7a9d786`
@@ -24,7 +24,7 @@ A full-screen launch page over a misty highway, with round social buttons and an
 
 ### CV
 
-A one-page CV with a full-height portrait, social profile buttons and a light and dark toggle.
+A one-page CV with a full-height illustration, social profile buttons and a light and dark toggle.
 
 - [Open in StackBlitz](https://stackblitz.com/github/allxsmith/bestax-templates/tree/main/cv?file=src/App.tsx)
 - Ported from [aldi/bulma-cv-template](https://github.com/aldi/bulma-cv-template) by [aldi](https://github.com/aldi), at commit `29108eb`
@@ -40,7 +40,7 @@ An invitation where guests pick the talks they will attend from a program on a f
 
 ### Hotel
 
-A one-page hotel site with rooms and a details modal, a photo gallery carousel, and a contact form beside a map.
+A one-page hotel site with rooms and a details modal, a gallery carousel, and a contact form beside a map.
 
 - [Open in StackBlitz](https://stackblitz.com/github/allxsmith/bestax-templates/tree/main/hotel?file=src/App.tsx)
 - Ported from [aldi/bulma-hotel-template](https://github.com/aldi/bulma-hotel-template) by [aldi](https://github.com/aldi), at commit `2f7a1cf`
@@ -64,7 +64,7 @@ A fruit shop with home, fruits, services and contact pages, a welcome carousel a
 
 ### Wedding Planner
 
-A wedding planner's one-page site with illustrated steps, client quotes, a gallery carousel of wedding photos and a contact form.
+A wedding planner's one-page site with illustrated steps, client quotes, a gallery carousel of wedding pictures and a contact form.
 
 - [Open in StackBlitz](https://stackblitz.com/github/allxsmith/bestax-templates/tree/main/wedding-planner?file=src/App.tsx)
 - Ported from [restylianos/bulma-wedding-planner-template](https://github.com/restylianos/bulma-wedding-planner-template) by [restylianos](https://github.com/restylianos), at commit `1b6a8b9`

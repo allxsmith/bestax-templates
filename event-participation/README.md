@@ -31,7 +31,8 @@ treats the folder as a project of its own.
 - The light or dark choice is bestax's `Theme`, given the scheme from state. A small script in
   `index.html` writes the visitor's saved choice, or else their system's, before the page
   first paints, and `src/colorMode.ts` reads and saves it under the same key.
-- `src/index.css` is the original's stylesheet, ported, and `public/` holds its logo.
+- `src/index.css` is the original's stylesheet, ported, and `public/` holds the logo drawn
+  for this port (see [Images](#images)).
 - Icons are Font Awesome, from its npm package, and the Inter font loads from Google Fonts in
   `index.html`.
 
@@ -55,6 +56,19 @@ treats the folder as a project of its own.
 - Hovering the footer link turns it the page's text color. The original turns it black, which
   vanishes on the dark scheme.
 - The footer's heart is hidden from screen readers, as a decorative icon.
+
+## Images
+
+`public/media/event_logo_gold.svg`, a blocky gold medal with the number 50, is voxel art drawn by
+code for this port:
+[`scenes/event-participation.mjs`](https://github.com/allxsmith/bestax/blob/main/docs/scripts/template-art/scenes/event-participation.mjs)
+in the bestax repository places every block, and the renderer beside it writes the SVG, so running
+it again writes the same file. No photo, illustration, stock image or image-generation model went
+into it, and it copies no existing artwork. It replaces the original's logo image, whose source the
+original does not record, so this port ships no image of unknown origin.
+
+`image-provenance.json` records the image with its SHA-256 hash, so anyone can check that the file
+shipped is the one described here.
 
 ## License
 

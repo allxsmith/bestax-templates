@@ -1,7 +1,7 @@
 # Bulma Coming Soon Template, rebuilt with bestax
 
-A full-screen "coming soon" page over a misty highway, with round social buttons and an email
-signup, rebuilt as a React app with [bestax-bulma](https://bestax.io).
+A full-screen "coming soon" page over a building going up at dawn, with round social buttons and an
+email signup, rebuilt as a React app with [bestax-bulma](https://bestax.io).
 
 The original is [aldi](https://github.com/aldi)'s
 [Bulma Coming Soon Template](https://github.com/aldi/bulma-coming-soon-template), part of
@@ -24,8 +24,8 @@ treats the folder as a project of its own.
 
 - `src/App.tsx` lays out the page, and `SocialLinks.tsx`, `NotifyForm.tsx` and `SiteFooter.tsx`
   hold its sections, built from bestax components in place of the original's Bulma markup.
-- `src/index.css` is the original's stylesheet, ported, and `public/` holds its background
-  image.
+- `src/index.css` is the original's stylesheet, ported, and `public/` holds the background
+  drawn for this port (see [Images](#images)).
 - The social buttons take their brand colors from aldi's
   [bulma-social](https://github.com/aldi/bulma-social), as the original does: its classes go on
   bestax's `Button` through `className`. Point each link in `src/SocialLinks.tsx` at your own
@@ -41,6 +41,19 @@ treats the folder as a project of its own.
 - Submitting the form stays on the page. The original posts to `/subscribe`, which a static host
   answers with an error page; send the address to your list from the form's `onSubmit` in
   `src/NotifyForm.tsx`.
+
+## Images
+
+`public/media/background.svg`, a blocky building site at dawn with a tower crane and a half-built
+block in scaffolding, is voxel art drawn by code for this port:
+[`scenes/coming-soon.mjs`](https://github.com/allxsmith/bestax/blob/main/docs/scripts/template-art/scenes/coming-soon.mjs)
+in the bestax repository places every block, and the renderer beside it writes the SVG, so running
+it again writes the same file. No photo, illustration, stock image or image-generation model went
+into it, and it copies no existing artwork. It replaces the original's background photo, whose source
+the original does not record, so this port ships no image of unknown origin.
+
+`image-provenance.json` records the image with its SHA-256 hash, so anyone can check that the file
+shipped is the one described here.
 
 ## License
 

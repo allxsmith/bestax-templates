@@ -1,7 +1,7 @@
 # Bulma Wedding Planner Template, rebuilt with bestax
 
 A wedding planner's one-page site, with an illustrated hero, client quotes, the steps of planning,
-a gallery carousel of wedding photos and a contact form, rebuilt as a React app with
+a gallery carousel of wedding pictures and a contact form, rebuilt as a React app with
 [bestax-bulma](https://bestax.io).
 
 The original is [restylianos](https://github.com/restylianos)'s
@@ -32,9 +32,8 @@ treats the folder as a project of its own.
 - The gallery is bestax's `Carousel` in place of bulma-carousel: several cards in view on a
   tablet or wider and one on a phone, stepping a card at a time and running round from the last
   to the first, as the original's did.
-- `public/img/` holds the original's images: its [unDraw](https://undraw.co) illustrations, the
-  avatars. The gallery's photos stay on Unsplash and the logo on Icons8, where the original
-  links them.
+- `public/img/` holds the images drawn for this port (see [Images](#images)): the logo, the
+  illustrations, the avatars and the gallery's pictures.
 - Icons are Font Awesome, from its npm package, with the original's Font Awesome 4 names moved
   to the current ones. The Nunito Sans font loads from Google Fonts in `index.html`.
 
@@ -55,11 +54,27 @@ treats the folder as a project of its own.
   as in the original, and the section clips them.
 - The gallery's dots sit under the cards rather than over their bottom edge, and between a phone
   and a tablet it shows one card, where bulma-carousel showed more as the screen widened.
-- The logo is the [Icons8](https://icons8.com) icon the original uses, still hot-linked from
-  their site rather than copied here, and the footer credits Icons8.
+- Every image is one drawn for this port, where the original ships unDraw illustrations and
+  avatars and hot-links its gallery's photos from Unsplash and its logo from Icons8 (see
+  [Images](#images)).
 - The contact heading reads "Let's connect", with its apostrophe.
 - `index.html` pins Bulma's light scheme, as the original's design is light only.
 - Smooth scrolling to the page's sections is off for visitors who ask for reduced motion.
+
+## Images
+
+Every image in `public/img/` is voxel art drawn by code for this port: the ringed logo, the
+invitation in the hero, the avatars, the four steps' pictures, the letterbox beside the contact form
+and the gallery's five pictures.
+[`scenes/wedding-planner.mjs`](https://github.com/allxsmith/bestax/blob/main/docs/scripts/template-art/scenes/wedding-planner.mjs)
+in the bestax repository places every block, and the renderer beside it writes the SVG, so running
+it again writes the same files. No photo, illustration, stock image or image-generation model went
+into them, and none copies existing artwork. They replace the original's unDraw illustrations, its
+avatars, whose source it does not record, and the Unsplash photos and Icons8 logo it hot-links, so
+this port ships only images made for it. The avatars and the couples show no real people.
+
+`image-provenance.json` records each image with its SHA-256 hash, so anyone can check that the file
+shipped is the one described here.
 
 ## License
 
